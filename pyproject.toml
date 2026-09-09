@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sitesweep"
+version = "2.0.0"
+description = "Scoped web reconnaissance and defensive vulnerability-scanning toolkit"
+requires-python = ">=3.10"
+dependencies = ["aiohttp>=3.9","PyYAML>=6.0","dnspython>=2.6"]
+
+[project.scripts]
+sitesweep = "sitesweep.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sitesweep*"]
