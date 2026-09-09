@@ -1,0 +1,3 @@
+# Explicitly authorized targets only
+example.com
+*.example.com
