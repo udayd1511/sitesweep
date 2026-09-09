@@ -1,0 +1,15 @@
+www
+api
+app
+dev
+staging
+stage
+admin
+portal
+auth
+cdn
+static
+assets
+mail
+vpn
+support
